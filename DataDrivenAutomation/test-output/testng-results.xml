@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18115" started-at="2020-09-09T15:05:03Z" finished-at="2020-09-09T15:05:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18115" started-at="2020-09-09T15:05:03Z" finished-at="2020-09-09T15:05:21Z">
+      <class name="org.abc.automation.testcases.TC_001_ValidateLoginFunctionality">
+        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.abc.automation.testcases.TC_001_ValidateLoginFunctionality@6f7fd0e6]" name="InitiateDriverInstance" is-config="true" duration-ms="5850" started-at="2020-09-10T01:05:03Z" finished-at="2020-09-10T01:05:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateDriverInstance -->
+        <test-method status="PASS" signature="tc_001_login_functionality(java.lang.String, java.lang.String)[pri:0, instance:org.abc.automation.testcases.TC_001_ValidateLoginFunctionality@6f7fd0e6]" name="tc_001_login_functionality" duration-ms="287" started-at="2020-09-10T01:05:09Z" data-provider="Static" finished-at="2020-09-10T01:05:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_login_functionality -->
+        <test-method status="PASS" signature="CloseDriverInstance()[pri:0, instance:org.abc.automation.testcases.TC_001_ValidateLoginFunctionality@6f7fd0e6]" name="CloseDriverInstance" is-config="true" duration-ms="619" started-at="2020-09-10T01:05:09Z" finished-at="2020-09-10T01:05:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriverInstance -->
+        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.abc.automation.testcases.TC_001_ValidateLoginFunctionality@6f7fd0e6]" name="InitiateDriverInstance" is-config="true" duration-ms="4796" started-at="2020-09-10T01:05:10Z" finished-at="2020-09-10T01:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateDriverInstance -->
+        <test-method status="PASS" signature="tc_001_login_functionality(java.lang.String, java.lang.String)[pri:0, instance:org.abc.automation.testcases.TC_001_ValidateLoginFunctionality@6f7fd0e6]" name="tc_001_login_functionality" duration-ms="287" started-at="2020-09-10T01:05:15Z" data-provider="Static" finished-at="2020-09-10T01:05:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_login_functionality -->
+        <test-method status="PASS" signature="CloseDriverInstance()[pri:0, instance:org.abc.automation.testcases.TC_001_ValidateLoginFunctionality@6f7fd0e6]" name="CloseDriverInstance" is-config="true" duration-ms="602" started-at="2020-09-10T01:05:15Z" finished-at="2020-09-10T01:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriverInstance -->
+        <test-method status="PASS" signature="InitiateDriverInstance()[pri:0, instance:org.abc.automation.testcases.TC_001_ValidateLoginFunctionality@6f7fd0e6]" name="InitiateDriverInstance" is-config="true" duration-ms="4765" started-at="2020-09-10T01:05:15Z" finished-at="2020-09-10T01:05:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateDriverInstance -->
+        <test-method status="PASS" signature="tc_001_login_functionality(java.lang.String, java.lang.String)[pri:0, instance:org.abc.automation.testcases.TC_001_ValidateLoginFunctionality@6f7fd0e6]" name="tc_001_login_functionality" duration-ms="288" started-at="2020-09-10T01:05:20Z" data-provider="Static" finished-at="2020-09-10T01:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_login_functionality -->
+        <test-method status="PASS" signature="CloseDriverInstance()[pri:0, instance:org.abc.automation.testcases.TC_001_ValidateLoginFunctionality@6f7fd0e6]" name="CloseDriverInstance" is-config="true" duration-ms="594" started-at="2020-09-10T01:05:20Z" finished-at="2020-09-10T01:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriverInstance -->
+      </class> <!-- org.abc.automation.testcases.TC_001_ValidateLoginFunctionality -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
