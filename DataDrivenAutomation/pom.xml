@@ -20,7 +20,7 @@
         <configuration>
 		<suiteXmlFiles>
 			<!-- testNG suite XML Files -->
-			<suiteXmlFile>test.\ng.xml</suiteXmlFile>
+			<suiteXmlFile>testng.xml</suiteXmlFile>
 		</suiteXmlFiles>
 		<configuration>
 		<skipTests>false</skipTests>
