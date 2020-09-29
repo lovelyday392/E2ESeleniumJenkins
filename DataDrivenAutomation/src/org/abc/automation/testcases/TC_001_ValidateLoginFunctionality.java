@@ -12,12 +12,12 @@ public class TC_001_ValidateLoginFunctionality extends DriverInstance {
 
 	//the test below will be running in a loop of size of the data object
 	//it will provide each row of the array as test data to the @Test
-	@Test(dataProvider="Static", dataProviderClass=DataGenerator.class)
+	@Test
 	public void tc_001_login_functionality(String uname, String pass) throws IOException{
 			
 		LoginPage login = new LoginPage(driver);
-		login.enterUserName(uname);
-		login.enterPassword(pass);
+		login.enterUserName("test");
+		login.enterPassword("test");
 		login.clickSignIn();
 		
 	}
