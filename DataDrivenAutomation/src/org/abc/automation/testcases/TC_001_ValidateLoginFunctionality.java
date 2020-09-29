@@ -10,8 +10,7 @@ import org.testng.annotations.Test;
 
 public class TC_001_ValidateLoginFunctionality extends DriverInstance {
 
-	//the test below will be running in a loop of size of the data object
-	//it will provide each row of the array as test data to the @Test
+
 	@Test
 	public void tc_001_login_functionality(String uname, String pass) throws IOException{
 			
